@@ -36,10 +36,10 @@ function MyApp({ Component, pageProps, router }: AppProps) {
     <ThemeProvider attribute="class" enableSystem={false}>
       <DefaultSeo
         description={config.description}
-        defaultTitle="Hi i'm Wisesa."
-        titleTemplate={`%s · Wisesa.dev`}
+        defaultTitle="Hi i'm Sudar."
+        titleTemplate={`%s · Kang Sudar`}
         openGraph={{
-          title: "Hi i'm Wisesa.",
+          title: "Hi i'm Kang Sudar.",
           description: config.description,
           images: [
             {
@@ -54,7 +54,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
       />
       <SocialProfileJsonLd
         type="Person"
-        name="Anvaqta Tangguh Wisesa"
+        name="Sudarmanto"
         url={config.baseUrl}
         sameAs={[
           "http://www.linkedin.com/in/anvaqta",
