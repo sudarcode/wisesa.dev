@@ -71,7 +71,7 @@ export default function Index() {
         <div className="flex flex-col items-center md:items-start space-y-4 justify-center">
           <div className="relative">
             <h1 className="noselect font-doodle mt-1 text-3xl md:text-4xl">
-              Hi, I&apos;m Wisesa. 🐱
+              Hi, I&apos;m Sudar. 🐱
             </h1>
             <div className="absolute hidden lg:block z-[2] top-[-8px] right-6">
               <Doodle2 />
@@ -85,9 +85,9 @@ export default function Index() {
             Checkout my{" "}
             <Link
               className="underline relative z-10 font-semibold"
-              href="/projects"
+              href="/blog"
             >
-              past works
+              past blog
             </Link>{" "}
             or learn more{" "}
             <Link
